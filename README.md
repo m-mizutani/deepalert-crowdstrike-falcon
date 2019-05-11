@@ -1,6 +1,6 @@
 # DeepAlert Inspector: CrowdStrike Flacon
 
-DeepAlert inspector for CrowdStrike Falcon.
+[DeepAlert](https://github.com/m-mizutani/deepalert) inspector for CrowdStrike Falcon.
 
 ## Prerequisite
 
