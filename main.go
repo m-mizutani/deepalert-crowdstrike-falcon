@@ -53,7 +53,7 @@ type falconSecrets struct {
 	FalconToken string `json:"falcon_token"`
 }
 
-func Handler(args Arguments) (deepalert.ReportContentEntity, error) {
+func Handler(args Arguments) (*deepalert.TaskResult, error) {
 	if args.Attr.Type != deepalert.TypeIPAddr {
 		return nil, nil
 	}
@@ -96,17 +96,17 @@ func Handler(args Arguments) (deepalert.ReportContentEntity, error) {
 			resource.OsVersion,
 		},
 		MACAddr: []string{
-			strings.ReplaceAll(resource.MacAddress, "-", ":"),
+			strings.Replace(resource.MacAddress, "-", ":", -1),
 		},
 		HostName: []string{
 			resource.Hostname,
 		},
 	}
 
-	return &host, nil
+	return &deepalert.TaskResult{Contents: []deepalert.ReportContentEntity{&host}}, nil
 }
 
-func lambdaHandler(ctx context.Context, attr deepalert.Attribute) (deepalert.ReportContentEntity, error) {
+func lambdaHandler(ctx context.Context, attr deepalert.Attribute) (*deepalert.TaskResult, error) {
 	args := Arguments{
 		Attr:      attr,
 		SecretArn: os.Getenv("SecretArn"),
@@ -115,5 +115,6 @@ func lambdaHandler(ctx context.Context, attr deepalert.Attribute) (deepalert.Rep
 }
 
 func main() {
-	deepalert.StartInspector(lambdaHandler, "crowdstrike-falcon", os.Getenv("SUBMIT_TOPIC"))
+	deepalert.StartInspector(lambdaHandler, "crowdstrike-falcon",
+		os.Getenv("SubmitTopic"), os.Getenv("AttributeTopic"))
 }

@@ -29,7 +29,7 @@ Resources:
         Fn::If: [ LambdaRoleRequired, {"Fn::GetAtt": LambdaRole.Arn}, {Ref: LambdaRoleArn} ]
       Environment:
         Variables:
-          SECRET_ARN:
+          SecretArn:
             Ref: SecretArn
       Events:
         NotifyTopic:

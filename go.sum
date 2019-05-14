@@ -5,8 +5,8 @@ github.com/aws/aws-sdk-go v1.15.88/go.mod h1:es1KtYUFs7le0xQ3rOihkuoVD90z7D0fR2Q
 github.com/aws/aws-sdk-go v1.18.5/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
 github.com/aws/aws-sdk-go v1.19.24 h1:qOIYaFxcFg07Vdn799ERpGiuUUIEi5MQ2vYib3CNMp4=
 github.com/aws/aws-sdk-go v1.19.24/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
-github.com/aws/aws-sdk-go v1.19.28 h1:u0KMC+Qv0YVyz8YR6mREEtslSPkdUMzXgDJFD5196O8=
-github.com/aws/aws-sdk-go v1.19.28/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
+github.com/aws/aws-sdk-go v1.19.29 h1:Uusurqi30wm5djEqi3R+9F+TNcGc3aSDSizoPcVp9Sk=
+github.com/aws/aws-sdk-go v1.19.29/go.mod h1:KmX6BPdI08NWTb3/sm4ZGu5ShLoqVDhKgpiN924inxo=
 github.com/cenkalti/backoff v2.0.0+incompatible/go.mod h1:90ReRw6GdpyfrHakVjL/QHaoyV4aDUVVkXQJJJ3NXXM=
 github.com/cenkalti/backoff v2.1.1+incompatible h1:tKJnvO2kl0zmb/jA5UKAt4VoEVw1qxKWjE/Bpp46npY=
 github.com/cenkalti/backoff v2.1.1+incompatible/go.mod h1:90ReRw6GdpyfrHakVjL/QHaoyV4aDUVVkXQJJJ3NXXM=
@@ -30,13 +30,10 @@ github.com/k0kubun/colorstring v0.0.0-20150214042306-9440f1994b88/go.mod h1:3w7q
 github.com/k0kubun/pp v3.0.1+incompatible h1:3tqvf7QgUnZ5tXO6pNAZlrvHgl6DvifjDrd9g2S9Z40=
 github.com/k0kubun/pp v3.0.1+incompatible/go.mod h1:GWse8YhT0p8pT4ir3ZgBbfZild3tgzSScAn6HmfYukg=
 github.com/konsorten/go-windows-terminal-sequences v1.0.1/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
+github.com/konsorten/go-windows-terminal-sequences v1.0.2 h1:DB17ag19krx9CFsz4o3enTrPXyIXCl+2iCXH/aMAp9s=
 github.com/konsorten/go-windows-terminal-sequences v1.0.2/go.mod h1:T0+1ngSBFLxvqU3pZ+m/2kptfBszLMUkC4ZK/EgS/cQ=
-github.com/m-mizutani/aws-go-serverless-sample v0.0.0-20190507144659-0ac9fbe36225/go.mod h1:fCq9f9hffkDR1H7OU7jzlZUm3Jz/uD/nbIGd4dcww10=
-github.com/m-mizutani/deepalert v0.0.0-20190509015605-a60630b8c602/go.mod h1:EFhwymqEIQ91fk6Czt9RfmyOYAgfSKa8Ems+HY/h/qI=
-github.com/m-mizutani/deepalert v0.0.0-20190510050630-37557fcff94d h1:9u2oyMzc0DkX5gGAhzDMAOsUAlGawk0G/PIqURaIArA=
-github.com/m-mizutani/deepalert v0.0.0-20190510050630-37557fcff94d/go.mod h1:EFhwymqEIQ91fk6Czt9RfmyOYAgfSKa8Ems+HY/h/qI=
-github.com/m-mizutani/deepalert-inspector-go-skelton v0.0.0-20190509152403-c911642863d1 h1:SzxKWoGi+qCzj68eMttkJuZjsFIyrIkf2ckLDr0+Dfo=
-github.com/m-mizutani/deepalert-inspector-go-skelton v0.0.0-20190509152403-c911642863d1/go.mod h1:iAFRCyVFWN3i/y+ceU/ULf7YJmlrZnQ+NqVVMjNNC08=
+github.com/m-mizutani/deepalert v0.0.0-20190514005018-ed2a5401e10c h1:v1B3/9ufDP27edJ/VDk5GhLpAduUUdSu9ZQ/lAUDVh0=
+github.com/m-mizutani/deepalert v0.0.0-20190514005018-ed2a5401e10c/go.mod h1:EFhwymqEIQ91fk6Czt9RfmyOYAgfSKa8Ems+HY/h/qI=
 github.com/m-mizutani/generalprobe v0.0.0-20190506052343-cb3bcd359935 h1:Wyqxhj1L8hEfX/bP2pzKGMvMCzH70vxMAJj25/bsZ2w=
 github.com/m-mizutani/generalprobe v0.0.0-20190506052343-cb3bcd359935/go.mod h1:CuJ4AMonHoCfQcam3gni5BUzOSC06Ed7FhrPx6gDxYo=
 github.com/mattn/go-colorable v0.1.1 h1:G1f5SKeVxmagw/IyvzvtZE4Gybcc4Tr1tf7I8z0XgOg=
@@ -61,7 +58,6 @@ github.com/stretchr/testify v1.3.0/go.mod h1:M5WIy9Dh21IEIfnGCwXGc5bZfKNJtfHm1UV
 golang.org/x/crypto v0.0.0-20180904163835-0709b304e793/go.mod h1:6SG95UA2DQfeDnfUPMdvaQW0Q7yPrPDi9nlGo2tz2b4=
 golang.org/x/crypto v0.0.0-20190308221718-c2843e01d9a2/go.mod h1:djNgcEr1/C05ACkg1iLfiJU5Ep61QUkGW8qpdssI0+w=
 golang.org/x/crypto v0.0.0-20190426145343-a29dc8fdc734/go.mod h1:yigFU9vqHzYiE8UmvKecakEJjdnWj3jj499lnFckfCI=
-golang.org/x/crypto v0.0.0-20190510104115-cbcb75029529/go.mod h1:yigFU9vqHzYiE8UmvKecakEJjdnWj3jj499lnFckfCI=
 golang.org/x/net v0.0.0-20181102091132-c10e9556a7bc/go.mod h1:mL1N/T3taQHkDXs73rZJwtUhF3w3ftmwwsq0BUmARs4=
 golang.org/x/net v0.0.0-20190311183353-d8887717615a/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
 golang.org/x/net v0.0.0-20190318221613-d196dffd7c2b/go.mod h1:t9HGtf8HONx5eT2rtn7q6eTqICYqUVnKs3thJo3Qplg=
@@ -80,7 +76,7 @@ golang.org/x/sys v0.0.0-20190502175342-a43fa875dd82/go.mod h1:h1NjWce9XRLGQEsW7w
 golang.org/x/sys v0.0.0-20190509141414-a5b02f93d862 h1:rM0ROo5vb9AdYJi1110yjWGMej9ITfKddS89P3Fkhug=
 golang.org/x/sys v0.0.0-20190509141414-a5b02f93d862/go.mod h1:h1NjWce9XRLGQEsW7wpKNCjG9DtNlClVuFLEZdDNbEs=
 golang.org/x/text v0.3.0/go.mod h1:NqM8EUOU14njkJ3fqMW+pc6Ldnwhi/IjpwHt7yyuwOQ=
+golang.org/x/text v0.3.2 h1:tW2bmiBqwgJj/UpqtC8EpXEZVYOwU0yG4iWbprSVAcs=
 golang.org/x/text v0.3.2/go.mod h1:bEr9sfX3Q8Zfm5fL9x+3itogRgK3+ptLWKqgva+5dAk=
 golang.org/x/tools v0.0.0-20180917221912-90fa682c2a6e/go.mod h1:n7NCudcB/nEzxVGmLbDWY5pfWTLqBcC2KZ6jyYvM4mQ=
 golang.org/x/tools v0.0.0-20190503185657-3b6f9c0030f7/go.mod h1:RgjU9mgBXZiqYHBnxXauZ1Gv1EHHAz9KjViQ78xBX0Q=
-golang.org/x/tools v0.0.0-20190510212250-80b1e8742cb0/go.mod h1:RgjU9mgBXZiqYHBnxXauZ1Gv1EHHAz9KjViQ78xBX0Q=
