@@ -103,7 +103,7 @@ func Handler(args Arguments) (*deepalert.TaskResult, error) {
 		},
 	}
 
-	return &deepalert.TaskResult{Contents: []deepalert.ReportContentEntity{&host}}, nil
+	return &deepalert.TaskResult{Contents: []deepalert.ReportContent{&host}}, nil
 }
 
 func lambdaHandler(ctx context.Context, attr deepalert.Attribute) (*deepalert.TaskResult, error) {
